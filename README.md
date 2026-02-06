@@ -1,131 +1,66 @@
-📋 Task Management Web Application
 
-This repository contains a Full Stack Task Management Web Application developed as part of the Global Trend – Full Stack Development Internship Skill Assessment.
-The project demonstrates core frontend, backend, and REST API fundamentals using clean and beginner-friendly code.
+## 📋 Task Management Web Application
 
-📂 Project Features
-🖥️ Frontend (User Interface)
+This repository contains a **Task Management Web Application** developed as part of a **Full Stack Development Internship assignment**.
+The project focuses on implementing **CRUD operations**, REST APIs, and frontend–backend integration using beginner-friendly technologies.
 
-Responsive UI built using HTML, CSS, and JavaScript
+## 📂 Project Features
 
-Add, edit, update, and delete tasks
+### 🖥️ Frontend (Client Side)
 
-Task fields:
+* Responsive UI using **HTML, CSS, and JavaScript**
+* Add, update, and delete tasks
+* Status selection using dropdown (Pending / Completed)
+* Dynamic task rendering without page reload
 
-Title
+### ⚙️ Backend (Server Side)
 
-Description
+* Built using **Node.js and Express.js**
+* RESTful API implementation
+* JSON-based data handling
+* Proper routing and request handling
 
-Status (Pending / Completed)
+### 🔁 Task Status Management
 
-Real-time UI updates using Fetch API
+* Task status shown as **Pending** or **Completed**
+* Status updates based on user selection
+* Prevents undefined or invalid status values
 
-⚙️ Backend (Server & Logic)
+## 🧠 Concepts Covered
 
-Backend developed using Node.js and Express.js
+* REST API fundamentals
+* Client–server communication
+* CRUD operations
+* Frontend and backend integration
+* Modular code structure
 
-RESTful API implementation
+## 🛠 Technologies Used
 
-CRUD Operations:
+* **Frontend**: HTML, CSS, JavaScript
+* **Backend**: Node.js, Express.js
+* **Tools**: VS Code, GitHub
+* **Architecture**: REST-based web application
 
-Create Task
+## 🚀 How to Run
 
-Read Tasks
+1. Clone the repository:
 
-Update Task
+   ```bash
+   git clone https://github.com/Snehalsatre/task-management-web-app.git
+   ```
+2. Navigate to backend folder and install dependencies:
 
-Delete Task
+   ```bash
+   npm install
+   ```
+3. Start the server:
 
-JSON-based request and response handling
+   ```bash
+   node server.js
+   ```
+4. Open `index.html` using **Live Server**
 
-🔁 Task Status Management
+## 🎯 Purpose
 
-Status controlled using dropdown selection
+This repository is intended for **students and beginners in Full Stack Development** to understand **web application flow**, REST APIs, and real-world task handling using simple technologies.
 
-Tasks display status as Pending or Completed
-
-Edge cases handled to avoid undefined values
-
-🧠 Concepts Demonstrated
-
-REST API design principles
-
-Client–server communication
-
-Frontend & backend integration
-
-Modular and readable code structure
-
-Basic system design understanding
-
-🛠 Technologies Used
-
-Frontend: HTML, CSS, JavaScript
-
-Backend: Node.js, Express.js
-
-Tools: VS Code, GitHub
-
-Architecture: REST-based web application
-
-🚀 How to Run the Project
-1️⃣ Clone the repository
-git clone https://github.com/YOUR_USERNAME/task-management-web-app.git
-
-2️⃣ Run Backend Server
-cd backend
-npm install
-node server.js
-
-
-Server runs at:
-
-http://localhost:3000
-
-3️⃣ Run Frontend
-
-Open frontend/index.html
-
-Right-click → Open with Live Server
-
-📌 Project Structure
-task-management-web-app/
-│
-├── backend/
-│   ├── server.js
-│   └── package.json
-│
-├── frontend/
-│   ├── index.html
-│   ├── style.css
-│   └── script.js
-│
-└── README.md
-
-🎯 Purpose of the Project
-
-This project was created to:
-
-Demonstrate full stack development fundamentals
-
-Practice REST API implementation
-
-Understand frontend–backend interaction
-
-Build confidence in real-world web application development
-
-🔮 Future Enhancements
-
-Database integration (MongoDB / MySQL)
-
-Authentication & authorization
-
-Task filtering (Pending / Completed)
-
-Deployment to cloud platform
-
-👩‍💻 Author
-
-Snehal Satre
-Third Year Computer Engineering Student
-Aspiring Full Stack Developer
