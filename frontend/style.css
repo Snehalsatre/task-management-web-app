@@ -1,0 +1,62 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #f2f5f9;
+  padding: 30px;
+}
+
+h2 {
+  text-align: center;
+  color: #333;
+}
+
+input, select {
+  padding: 10px;
+  margin: 5px;
+  width: 200px;
+}
+
+button {
+  padding: 10px 14px;
+  background: #2563eb;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+button:hover {
+  background: #1e40af;
+}
+
+.del {
+  background: #dc2626;
+}
+
+.del:hover {
+  background: #991b1b;
+}
+
+#taskList {
+  margin-top: 20px;
+  padding: 0;
+}
+
+.task {
+  background: white;
+  margin: 10px auto;
+  padding: 15px;
+  border-radius: 6px;
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.task h4 {
+  margin: 0;
+}
+
+.status {
+  font-size: 12px;
+  color: green;
+}
